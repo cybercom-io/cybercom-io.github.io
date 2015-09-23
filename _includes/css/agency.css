@@ -170,14 +170,36 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
+#header-table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+#header-second-part {
+    text-align: center;
+    width: 100%;
+}
+
+a.header-arrow {
+    background-image: url(../img/arrow.png);
+    background-attachment: scroll;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 44px;
+    width: 8.4%;
+    height: 44px;
+    display: inline-block;
+}
+
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #A15301;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.color.primary }};
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -207,35 +229,42 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #fff;
 }
 
-.navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover {
     outline: 0;
     color: #{{ site.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.color.primary }};
+    color: #000;
+    background-color: #fff;
 }
 
-.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
-    background-color: #{{ site.color.secondary }};
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #{{ site.color.primary }};
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
-        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -251,28 +280,15 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default .navbar-nav>.active>a {
         border-radius: 3px;
     }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-
-    .navbar-default.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
-    }
 }
 
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+}
+
+#header-first-part {
+    background-color: #ED7B01;
 }
 
 header .intro-text {
@@ -280,44 +296,53 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+header .intro-text .intro-part1 {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    max-width: 768px;
+    background-attachment: scroll;
+    background-image: url(../img/digitalisaatio.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 70px;
+    -moz-background-size: 100% 70px;
+    background-size: 100% 70px;
+    -o-background-size: 100% 70px;
+    height: 70px;
+    margin: auto;
 }
 
-header .intro-text .intro-heading {
+header .intro-text .intro-part2 {
     margin-bottom: 25px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
 }
 
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 25px;
     }
 
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+    header .intro-text .intro-part1 {
+        margin-bottom: 160px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    header .intro-text .intro-part2 {
         margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 35px;
     }
 }
 

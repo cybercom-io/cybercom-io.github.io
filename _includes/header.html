@@ -42,13 +42,18 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+        <table id="header-table">
+            <tr><td valign="top" id="header-first-part">
+            <div class="container">
+                <div class="intro-text">
+                    <div class="intro-part1"></div>
+                    <div class="intro-part2">... ja miten se tehdään.</div>
+                </div>
             </div>
-        </div>
+            </td></tr><tr><td valign="bottom" id="header-second-part">
+            <a href="#services" class="page-scroll header-arrow"></a>
+            </td></tr></table>
+        </table>
     </header>
 <!--
         {% for page in site.pages %}
