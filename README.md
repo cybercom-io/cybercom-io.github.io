@@ -1,24 +1,11 @@
 # Cybercom.io
-http://178.217.129.11/
 
-### Deployment
+http://cybercom-finland.github.io/cybercom.io/
 
-First, create a machine in Cybercom Cloud (eg. Ubuntu 14, L).
-* Remember to opt for public IP with HTTP and HTTPS ports
+### Development
 
-```
-sudo apt-get install git
-wget -qO- https://get.docker.com/ | sh
-sudo usermod -aG docker ec2-user
-git clone https://github.com/cybercom-finland/cybercom.io
-cd cybercom.io
-nano _config.yml  # Update url setting to the public IP of the machine
-sudo docker run -d --label=jekyll --label=stable --volume=$(pwd):/srv/jekyll \
- -p 80:4000 jekyll/stable jekyll s
-exit
-```
-
-The page now responds at http://cloud-machine-ip/
+* [run.sh](run.sh) starts jekyll which serves the page at localhost and watches for file changes
+* Edit, check at http://localhost:4000/cybercom.io/, edit again ...
 
 ## How to use the theme
 
