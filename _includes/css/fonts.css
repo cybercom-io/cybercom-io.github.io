@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'caecilia-bold';
+	src: url('./css/fonts/CaeciliaLTStd-Bold.eot');
+	src: url('./css/fonts/CaeciliaLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('./css/fonts/CaeciliaLTStd-Bold.woff') format('woff'),
+	     url('./css/fonts/CaeciliaLTStd-Bold.ttf') format('truetype'),
+	     url('./css/fonts/CaeciliaLTStd-Bold.svg#webfont') format('svg');
+}
+@font-face {
+    font-family: 'frutiger-bold';
+	src: url('./css/fonts/FrutigerLTStd-Bold.eot');
+	src: url('./css/fonts/FrutigerLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('./css/fonts/FrutigerLTStd-Bold.woff') format('woff'),
+	     url('./css/fonts/FrutigerLTStd-Bold.ttf') format('truetype'),
+	     url('./css/fonts/FrutigerLTStd-Bold.svg#webfont') format('svg');
+}
+@font-face {
+    font-family: 'frutiger-light';
+	src: url('./css/fonts/FrutigerLTStd-Light.eot');
+	src: url('./css/fonts/FrutigerLTStd-Light.eot?#iefix') format('embedded-opentype'),
+	     url('./css/fonts/FrutigerLTStd-Light.woff') format('woff'),
+	     url('./css/fonts/FrutigerLTStd-Light.ttf') format('truetype'),
+	     url('./css/fonts/FrutigerLTStd-Light.svg#webfont') format('svg');
+}

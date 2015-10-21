@@ -1,2 +1,4 @@
 {% include css/bootstrap.min.css %}
-{% include css/agency.css %}
+{% include css/fonts.css %}
+{% include css/main-style.css %}
+{% include css/header.css %}

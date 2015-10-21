@@ -1,0 +1,188 @@
+#header-table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+#header-second-part {
+    text-align: center;
+    width: 100%;
+}
+
+a.header-arrow {
+    background-image: url(../img/arrow.png);
+    background-attachment: scroll;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 44px;
+    width: 8.4%;
+    height: 44px;
+    display: inline-block;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #ED7B01; // #A15301;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "caecilia-bold", Tahoma, Geneva, sans-serif;
+    font-weight: normal;
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fff; //#{{ site.color.secondary }};
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #F4B067; //#{{ site.color.primary }};
+    background-color: #F4B067; //#{{ site.color.primary }};
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #F4B067; //#{{ site.color.primary }};
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "frutiger-bold", Tahoma,Geneva,sans-serif;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover {
+    outline: 0;
+    color: #fff; //#{{ site.color.primary }};
+    background-color: #F19534;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #000;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #F4B067; //#{{ site.color.primary }};
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 10px 0;
+        border: 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0px;
+    }
+}
+
+header {
+    text-align: center;
+    color: #fff;
+}
+
+#header-first-part {
+    background: #ED7B01 url("img/silhouette.svg") no-repeat bottom;
+    background-size: 1200px 126px;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-part1 {
+    margin-bottom: 25px;
+    font-family: "caecilia-bold",Helvetica,Arial,sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 768;
+    margin: auto;
+}
+
+header .intro-text .intro-part2 {
+    margin-bottom: 25px;
+    font-family: "frutiger-bold",Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 35px;
+}
+
+@media(min-width:1100px) {
+    header .intro-text {
+        padding-top: 220px;
+        padding-bottom: 25px;
+    }
+
+    header .intro-text .intro-part1 {
+        margin-bottom: 10px;
+        font-family: "caecilia-bold",Helvetica,Arial,sans-serif;
+        font-size: 60px;
+        line-height: 60px;
+        max-width: 900px;
+    }
+
+    header .intro-text .intro-part2 {
+        margin-bottom: 150px;
+        font-family: "frutiger-bold",Tahoma, Geneva, sans-serif;
+        font-size: 35px;
+        font-weight: normal;
+        line-height: 35px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1100px) {
+    #header-first-part {
+        background-size: 1200px 126px;
+    }
+    header .intro-text {
+        padding-top: 170px;
+        padding-bottom: 25px;
+    }
+    header .intro-text .intro-part1 {
+        font-size: 48px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    header .intro-text .intro-part2 {
+        margin-bottom: 100px;
+        font-size: 24px;
+        font-weight: normal;
+        line-height: 35px;
+    }
+}
