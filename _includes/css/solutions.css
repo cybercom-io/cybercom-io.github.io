@@ -1,0 +1,14 @@
+.solution-thumbnail img {
+    width: 360px;
+    height: 260px;
+}
+
+.service-heading {
+    font-size: 21px;
+}
+
+.text-muted {
+    font-family: "frutiger-light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857;
+}
