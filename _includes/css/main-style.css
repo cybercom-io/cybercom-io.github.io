@@ -718,3 +718,7 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+
+.logo-holder {
+    margin-top: 30px;
+}
