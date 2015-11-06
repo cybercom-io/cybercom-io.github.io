@@ -145,6 +145,7 @@ header .intro-text .intro-part1 {
 }
 
 header .intro-text .intro-part2 {
+    margin-top: 30px;
     margin-bottom: 10px;
     font-family: "frutiger-bold",Tahoma, Geneva, sans-serif;
     font-size: 20px;
