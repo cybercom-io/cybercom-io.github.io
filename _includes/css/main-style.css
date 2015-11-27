@@ -589,9 +589,9 @@ section#refs img
   padding: 15px;
 }
 
-section#refs .container:hover
+section#refs a > div > div:hover
 {
-  
+
   background: rgba(229,235,240,1);
   transition: all ease .3s;
 }

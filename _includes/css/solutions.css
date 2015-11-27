@@ -12,3 +12,21 @@
     font-size: 16px;
     line-height: 1.42857;
 }
+
+.phone1
+{
+  padding:20px;
+  padding-top:35px;
+  background-color: #333;
+  border-radius: 30px;
+}
+
+.phone2
+{
+  background-color: #444;
+  width: 150px;
+  height: 20px;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: -10px;
+}
