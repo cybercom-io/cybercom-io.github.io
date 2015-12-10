@@ -97,6 +97,12 @@ a.header-arrow {
     background-color: #F4B067; //#{{ site.color.primary }};
 }
 
+a.cybercom-fi-link img
+{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 10px 0;
