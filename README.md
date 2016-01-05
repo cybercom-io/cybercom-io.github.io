@@ -1,6 +1,6 @@
 # Cybercom.io
 
-http://cybercom-finland.github.io/cybercom.io/
+http://iot.cybercom.fi
 
 ### Development
 
